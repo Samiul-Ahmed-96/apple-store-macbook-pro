@@ -1,0 +1,11 @@
+.spec-btn {
+    border: 2px solid #657ee1;
+    background: #f1f5ff;
+    font-weight: 600;
+}
+
+.promo-btn {
+    background: rgb(224, 75, 75);
+    color: #fff;
+    font-weight: bold;
+}

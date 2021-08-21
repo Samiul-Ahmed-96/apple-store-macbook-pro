@@ -1,95 +1,104 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Apple-Store</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Apple-Store</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- CSS here -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
 
-        <!-- Add your site or application content here -->
-        <!-- header-start -->
-        <header>
-            <section class="heading">
-                <h3 class="text-center my-5">Welcome to Apple Store</h3>
-            </section>
-        </header>
-        <!-- header-End -->
-        <main>
-            <section class="product">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="product-img">
-                                <img class="w-100" src="img/mac.png" alt="">
-                            </div>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Add your site or application content here -->
+    <!-- header-start -->
+    <header>
+        <section class="heading">
+            <h3 class="text-center my-5">Welcome to Apple Store</h3>
+        </section>
+    </header>
+    <!-- header-End -->
+    <main>
+        <section class="product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="product-img">
+                            <img class="w-100" src="img/mac.png" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <div class="product-details">
-                                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
-                                <p>This extraordinary design is only possible thanks to M1, the first system on a chip for Mac. It makes iMac so thin and compact that it fits in more places than ever.M1 integrates the processor, graphics, memory, and more onto a single chip. That let us put an entire computer into a space so small it practically disappears.</p>
-                            </div>
-                            <div class="product-spec">
-                                <h3>Memory</h3>
-                                <button class="spec-btn btn my-2">8gb unified memory</button>
-                                <button class="spec-btn btn my-2">16gb unified memory</button>
-                                <h3>Storage</h3>
-                                <button class="spec-btn btn my-2">256 SSD storage</button>
-                                <button class="spec-btn btn my-2">512 SSD storage</button>
-                                <h3>Choose your deliver option</h3>
-                                <button class="spec-btn btn my-2">Friday, Aug 25 FREE prime Delivery</button>
-                                <button class="spec-btn btn my-2">Friday, Aug 21 FREE Delivery charge $20</button>
-                            </div>
-                            <div class="product-pricing">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="product-item">
-                                            <h5>Best Price</h5>
-                                            <h5>Extra Memory Cost</h5>
-                                            <h5>Extra Storage Cost</h5>
-                                            <h5>Delivery Charge</h5>
-                                            <h5>Total</h5>
-                                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product-details">
+                            <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                            <p>This extraordinary design is only possible thanks to M1, the first system on a chip for
+                                Mac. It makes iMac so thin and compact that it fits in more places than ever.M1
+                                integrates the processor, graphics, memory, and more onto a single chip. That let us put
+                                an entire computer into a space so small it prac tically disappears.</p>
+                        </div>
+                        <div class="product-spec">
+                            <h3>Memory</h3>
+                            <button id="memory-8gb" class="spec-btn btn my-2">8gb unified memory</button>
+                            <button value="180" id="memory-16gb" class="spec-btn btn my-2">16gb unified memory</button>
+                            <h3>Storage</h3>
+                            <button id="storage256" class="spec-btn btn my-2">256 SSD storage</button>
+                            <button id="storage512" class="spec-btn btn my-2">512 SSD storage</button>
+                            <button id="storage1tb" class="spec-btn btn my-2">1TB SSD storage</button>
+                            <h3>Choose your deliver option</h3>
+                            <button id="delivery-late" class="spec-btn btn my-2">Friday, Aug 25 FREE prime
+                                Delivery</button>
+                            <button id="delivery-quick" class="spec-btn btn my-2">Friday, Aug 21 FREE Delivery charge
+                                $20</button>
+                        </div>
+                        <div class="product-pricing">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="product-item">
+                                        <h5>Best Price</h5>
+                                        <h5>Extra Memory Cost</h5>
+                                        <h5>Extra Storage Cost</h5>
+                                        <h5>Delivery Charge</h5>
+                                        <h5>Total</h5>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="product-item-amount">
-                                            <h5>$ <span>1299</span></h5>
-                                            <h5>$ <span>0</span></h5>
-                                            <h5>$ <span>0</span></h5>
-                                            <h5>$ <span>0</span></h5>
-                                            <h5>$ <span>1299</span></h5>
-                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="product-item-amount">
+                                        <h5>$ <span id="base-price">1299</span></h5>
+                                        <h5>$ <span id="memory-cost">0</span></h5>
+                                        <h5>$ <span id="storage-cost">0</span></h5>
+                                        <h5>$ <span id="delivery-cost">0</span></h5>
+                                        <h5>$ <span id="total-cost">1299</span></h5>
                                     </div>
                                 </div>
                             </div>
-                            <div class="promo-code">
-                                <h5>Add Promo Code</h5>
-                                <input type="text">
-                                <button class="promo-btn btn" >Apply</button>
-                            </div>
+                        </div>
+                        <div class="promo-code">
+                            <h5>Add Promo Code</h5>
+                            <input type="text">
+                            <button class="promo-btn btn">Apply</button>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="total my-5">
+            <h3 class="text-center">Total: $<span id="total">1299</span></h3>
+        </div>
+    </footer>
 
+    <!-- JS here -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
-
-
-		<!-- JS here -->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
 </html>
