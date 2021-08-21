@@ -1,11 +1,78 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+/* heading */
+.heading h3 {
+    color: #6c6c6c;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.heading hr {
+    margin-bottom: 50px;
+}
+
+/* product promo */
+.promo-btn {
+    background: rgb(224, 75, 75);
+    color: #fff;
+    font-weight: bold;
+}
+
+.promo-code h3 {
+    font-weight: bold;
+    color: #515151;
+    margin: 25px 0px;
+}
+
+.promo-code input {
+    height: 37px;
+    padding: 0px 10px;
+}
+
+.promo-code button {
+    padding: 9px 35px;
+}
+
+/* product pricing */
+.product-pricing h5 {
+    border-bottom: 2px solid #e6e6e6;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #535353;
+}
+
+.product-details p {
+    margin: 25px 0px;
+}
+
+/* product Spec */
+.product-spec h3 {
+    font-weight: bold;
+    color: #166fbd;
+    margin: 10px 0px;
+}
+
 .spec-btn {
     border: 2px solid #657ee1;
     background: #f1f5ff;
     font-weight: 600;
 }
 
-.promo-btn {
-    background: rgb(224, 75, 75);
-    color: #fff;
+/* product total */
+.total hr {
+    height: 2px;
+    color: #d2d2d2;
+}
+
+.total h3 {
     font-weight: bold;
+    color: #464646;
 }

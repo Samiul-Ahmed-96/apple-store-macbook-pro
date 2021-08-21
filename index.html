@@ -7,27 +7,25 @@
     <title>Apple-Store</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
-
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-    <!-- Add your site or application content here -->
+    <!-- Add site or application content here -->
     <!-- header-start -->
     <header>
         <section class="heading">
             <h3 class="text-center my-5">Welcome to Apple Store</h3>
+            <hr>
         </section>
     </header>
     <!-- header-End -->
     <main>
+        <!-- section-product-start -->
         <section class="product">
             <div class="container">
                 <div class="row">
@@ -36,6 +34,7 @@
                             <img class="w-100" src="img/mac.png" alt="">
                         </div>
                     </div>
+                    <!-- -product-details-start -->
                     <div class="col-md-6">
                         <div class="product-details">
                             <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
@@ -44,6 +43,7 @@
                                 integrates the processor, graphics, memory, and more onto a single chip. That let us put
                                 an entire computer into a space so small it prac tically disappears.</p>
                         </div>
+                        <!-- -product-spec-start -->
                         <div class="product-spec">
                             <h3>Memory</h3>
                             <button id="memory-8gb" class="spec-btn btn my-2">8gb unified memory</button>
@@ -53,11 +53,11 @@
                             <button id="storage512" class="spec-btn btn my-2">512 SSD storage</button>
                             <button id="storage1tb" class="spec-btn btn my-2">1TB SSD storage</button>
                             <h3>Choose your deliver option</h3>
-                            <button id="delivery-late" class="spec-btn btn my-2">Friday, Aug 25 FREE prime
-                                Delivery</button>
-                            <button id="delivery-quick" class="spec-btn btn my-2">Friday, Aug 21 FREE Delivery charge
-                                $20</button>
+                            <button id="delivery-late" class="spec-btn btn my-2">Friday, Aug 25 FREE prime Delivery</button>
+                            <button id="delivery-quick" class="spec-btn btn my-2">Friday, Aug 21 FREE Delivery charge $20</button>
                         </div>
+                        <!-- -product-spec-end -->
+                        <!-- -product-pricing-start -->
                         <div class="product-pricing">
                             <div class="row">
                                 <div class="col-md-6">
@@ -80,25 +80,31 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- -product-pricing-start -->
+                        <!-- -promo-code-applied here -->
                         <div class="promo-code">
-                            <h5>Add Promo Code</h5>
-                            <input type="text">
-                            <button class="promo-btn btn">Apply</button>
+                            <h3>Add Promo Code</h3>
+                            <input id="coupon-field" type="text">
+                            <button id="coupon-add-btn" class="promo-btn btn my-2">Apply</button>
                         </div>
+                        <!-- -promo-code-applied here-->
                     </div>
+                    <!-- -product-details-end -->
                 </div>
             </div>
         </section>
+        <!-- section-product-end -->
     </main>
     <footer>
+        <!-- -product-total-start -->
         <div class="total my-5">
-            <h3 class="text-center">Total: $<span id="total">1299</span></h3>
+            <hr>
+            <h3 class="text-center">Total: $<span id="total-main">1299</span></h3>
         </div>
+        <!-- -product-total-end -->
     </footer>
-
     <!-- JS here -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
